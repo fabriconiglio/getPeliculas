@@ -61,7 +61,7 @@ Si vas a utilizar una base de datos, crea las migraciones y aplica las migracion
 
 9. Por ultimo nos dirigimos al http://127.0.0.1:8000/fetch-movies para obtener las pelis
 
-10. Nos vamos http://127.0.0.1:8000 y ya podemos hacer el CRUD de los datos
+10. Una vez hecho el paso 9 en el cual la pagina nos queda en blanco nos vamos http://127.0.0.1:8000 y ya podemos hacer el CRUD de los datos
 
 
 
