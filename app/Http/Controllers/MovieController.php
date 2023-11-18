@@ -15,7 +15,7 @@ class MovieController extends Controller
         // Obtener los géneros
         $genreResponse = $client->request('GET', 'https://api.themoviedb.org/3/genre/movie/list?language=en', [
             'headers' => [
-                'Authorization' => 'Bearer' . env('TMDB_TOKEN'),
+                'Authorization' => 'Bearer ' . env('TMDB_TOKEN'),
                 'accept' => 'application/json',
             ],
         ]);
@@ -26,7 +26,7 @@ class MovieController extends Controller
         // Obtener las películas
         $movieResponse = $client->request('GET', 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc', [
             'headers' => [
-                'Authorization' => 'Bearer' . env('TMDB_TOKEN'),
+                'Authorization' => 'Bearer ' . env('TMDB_TOKEN'),
                 'accept' => 'application/json',
             ],
         ]);
