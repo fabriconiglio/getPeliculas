@@ -33,33 +33,35 @@ Ej:
             DB_PASSWORD=
 
 
-4.Ejecuta el siguiente comando para instalar las dependencias PHP del proyecto utilizando Composer:
+4. Ir a la pagina https://www.themoviedb.org/ y registrarse para usar el acceso token para obtener los datos de la api. Una vez obtenido agregarla al .env TMDB_TOKEN='aca va tu acceso token'
+
+5.Ejecuta el siguiente comando para instalar las dependencias PHP del proyecto utilizando Composer:
 
         
             composer install
 
-5. Generar una clave de aplicación:
+6. Generar una clave de aplicación:
 
 Laravel utiliza una clave de aplicación para cifrar cookies y otros datos sensibles. Genera una nueva clave de aplicación usando el siguiente comando:
 
     
        php artisan key:generate
        
-6.Migraciones y base de datos:
+7.Migraciones y base de datos:
 
 Si vas a utilizar una base de datos, crea las migraciones y aplica las migraciones para crear las tablas necesarias en la base de datos:
 
      `
        php artisan migrate
 
-7.Iniciar el Servidor de Desarrollo
+8.Iniciar el Servidor de Desarrollo
 
     
         php artisan serve
 
-8. Por ultimo nos dirigimos al http://127.0.0.1:8000/fetch-movies para obtener las pelis
+9. Por ultimo nos dirigimos al http://127.0.0.1:8000/fetch-movies para obtener las pelis
 
-9. Nos vamos http://127.0.0.1:8000 y ya podemos hacer el CRUD de los datos
+10. Nos vamos http://127.0.0.1:8000 y ya podemos hacer el CRUD de los datos
 
 
 
